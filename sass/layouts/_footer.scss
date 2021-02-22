@@ -1,0 +1,105 @@
+.footer {
+  background-color: #2f303a;
+  .container {
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      align-items: baseline;
+    }
+    .logo-footer {
+      color: $primary-white-color;
+      display: inline-block;
+      margin-bottom: 20px;
+    }
+    .subscription-footer {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      @media screen and (min-width: 1200px) {
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+}
+.adress-container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  text-align: center;
+  width: 231px;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    margin-left: 61px;
+  }
+  @media screen and (min-width: 1200px) {
+    text-align: left;
+    margin: 0;
+    margin-right: 70px;
+  }
+  .address-one {
+    color: $primary-white-color;
+  }
+  .address-two:last-child {
+    margin-bottom: 0;
+  }
+  .address-two:hover,
+  .address-two:focus {
+    color: $accent-color;
+  }
+  a.address {
+    text-decoration: none;
+  }
+  li:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  margin-bottom: 9px;
+}
+
+.links-container b,
+.subscription-footer b {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: $primary-white-color;
+}
+
+.links-container {
+  width: 206px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    margin: 0;
+    margin-right: 74px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 93px;
+    text-align: left;
+  }
+  li {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+  }
+  svg {
+    fill: $primary-white-color;
+  }
+}
+.address-links-container {
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  @media screen and (min-width: 1200px) {
+    margin: 0;
+  }
+}

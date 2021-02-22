@@ -1,0 +1,30 @@
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  li {
+    width: 44px;
+    height: 44px;
+  }
+
+  svg {
+    margin: auto;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+.social-links a {
+  display: flex;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 50%;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    & svg {
+      fill: $primary-white-color;
+    }
+  }
+}

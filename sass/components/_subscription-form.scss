@@ -1,0 +1,67 @@
+.subscription {
+  position: relative;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  // width: 320px;
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
+    width: 450px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 570px;
+  }
+
+  input {
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    padding: 16px;
+    margin: 0;
+    width: 100%;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    &:focus + label {
+      transform: translateY(-30px);
+      color: transparent;
+    }
+    @media screen and (min-width: 480px) and (max-width: 1199px) {
+      width: 450px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 358px;
+    }
+  }
+  label {
+    position: absolute;
+    top: 15px;
+    left: 16px;
+    font-size: 16px;
+    line-height: 1.25;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  button {
+    margin-top: 20px;
+    @media screen and (min-width: 1200px) {
+      margin: 0;
+      margin-left: 7px;
+    }
+    padding: 10px 28px 10px 28px;
+    width: 200px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  span {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(../img/icon-send.svg);
+    margin-left: 10px;
+  }
+}
