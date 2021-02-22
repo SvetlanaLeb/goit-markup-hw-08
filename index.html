@@ -171,19 +171,34 @@
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul>
             <li class="icon">
-              <img src="./img/img1.jpg" alt="Изображение 1" width="370" />
+              <img
+                src="./img/section-two/icon.jpg"
+                srcset="./img/section-two/icon@2x.jpg 2x"
+                alt="Изображение 1"
+                width="370"
+              />
               <div class="icon-text">
                 <p>Десктопные приложения</p>
               </div>
             </li>
             <li class="icon">
-              <img src="./img/img2.jpg" alt="Изображение 2" width="370" />
+              <img
+                src="./img/section-two/icon2.jpg"
+                srcset="./img/section-two/icon2@2x.jpg 2x"
+                alt="Изображение 2"
+                width="370"
+              />
               <div class="icon-text">
                 <p>Мобильные приложения</p>
               </div>
             </li>
             <li class="icon">
-              <img src="./img/img3.jpg" alt="Изображение 3" width="370" />
+              <img
+                src="./img/section-two/icon3.jpg"
+                srcset="./img/section-two/icon3@2x.jpg 2x"
+                alt="Изображение 3"
+                width="370"
+              />
               <div class="icon-text">
                 <p>Дизайнерские решения</p>
               </div>
@@ -198,7 +213,25 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-member">
-              <img src="./img/photo1.jpg" alt="Фото сотрудника 1" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/section-three/tablet-photo1.jpg    1x,
+                    ./img/section-three/tablet-photo1@2x.jpg 2x
+                  "
+                  media="(min-width: 768)" />
+                <source
+                  srcset="
+                    ./img/section-three/img.jpg    1x,
+                    ./img/section-three/img@2x.jpg 2x
+                  "
+                  media="(min-width: 1200)" />
+
+                <img
+                  src="./img/section-three/mobile-photo1.jpg"
+                  srcset="./img/section-three/mobile-photo1@2x.jpg 2x"
+                  alt="Фото сотрудника 1"
+              /></picture>
               <div class="team-content">
                 <h3>Игорь Демьяненко</h3>
                 <p>Product Designer</p>
@@ -235,7 +268,25 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./img/photo2.jpg" alt="Фото сотрудника 2" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/section-three/tablet-photo2.jpg    1x,
+                    ./img/section-three/tablet-photo2@2x.jpg 2x
+                  "
+                  media="(min-width: 768)" />
+                <source
+                  srcset="
+                    ./img/section-three/img-2.jpg    1x,
+                    ./img/section-three/img-2@2x.jpg 2x
+                  "
+                  media="(min-width: 1200)" />
+
+                <img
+                  src="./img/section-three/mobile-photo2.jpg"
+                  srcset="./img/section-three/mobile-photo2@2x.jpg 2x"
+                  alt="Фото сотрудника 2"
+              /></picture>
               <div class="team-content">
                 <h3>Ольга Репина</h3>
                 <p>Frontend Developer</p>
@@ -272,7 +323,25 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./img/photo3.jpg" alt="Фото сотрудника 3" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/section-three/tablet-photo3.jpg    1x,
+                    ./img/section-three/tablet-photo3@2x.jpg 2x
+                  "
+                  media="(min-width: 768)" />
+                <source
+                  srcset="
+                    ./img/section-three/img-3.jpg    1x,
+                    ./img/section-three/img-3@2x.jpg 2x
+                  "
+                  media="(min-width: 1200)" />
+
+                <img
+                  src="./img/section-three/mobile-photo3.jpg"
+                  srcset="./img/section-three/mobile-photo3@2x.jpg 2x"
+                  alt="Фото сотрудника 3"
+              /></picture>
               <div class="team-content">
                 <h3>Николай Тарасов</h3>
                 <p>Marketing</p>
@@ -309,7 +378,25 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./img/photo4.jpg" alt="Фото сотрудника 4" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ./img/section-three/tablet-photo4.jpg    1x,
+                    ./img/section-three/tablet-photo4@2x.jpg 2x
+                  "
+                  media="(min-width: 768)" />
+                <source
+                  srcset="
+                    ./img/section-three/img-4.jpg    1x,
+                    ./img/section-three/img-4@2x.jpg 2x
+                  "
+                  media="(min-width: 1200)" />
+
+                <img
+                  src="./img/section-three/mobile-photo4.jpg"
+                  srcset="./img/section-three/mobile-photo4@2x.jpg 2x"
+                  alt="Фото сотрудника 4"
+              /></picture>
               <div class="team-content">
                 <h3>Михаил Ермаков</h3>
                 <p>UI Designer</p>
